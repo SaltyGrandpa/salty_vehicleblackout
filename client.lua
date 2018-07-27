@@ -50,6 +50,9 @@ Citizen.CreateThread(function()
 					oldSpeed = currentSpeed
 				end
 			end
+		else
+			oldBodyDamage = 0
+			oldSpeed = 0
 		end
 		
 		if isBlackedOut and Config.DisableControlsOnBlackout then
