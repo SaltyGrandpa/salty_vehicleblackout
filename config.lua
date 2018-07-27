@@ -1,6 +1,6 @@
 Config = {}
 
--- Amount of Time to Blackout, in Miliseconds
+-- Amount of Time to Blackout, in milliseconds
 -- 2000 = 2 seconds
 Config.BlackoutTime = 2000
 
