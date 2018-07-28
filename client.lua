@@ -9,7 +9,6 @@ local function blackout()
 		isBlackedOut = true
 		-- This thread will black out the user's screen for the specified time
 		Citizen.CreateThread(function()
-			isBlackedOut = true
 			DoScreenFadeOut(100)
 			while not IsScreenFadedOut() do
 				Citizen.Wait(0)
